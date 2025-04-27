@@ -9,4 +9,6 @@
 - docker pull nginx:1.23  # 指定版本
 - docker rmi nginx:1.23  # 按标签删除
   docker rmi $(docker images -aq)  # 删除所有镜像
+- docker images  # 查看镜像
+- docker images -q  # 仅显示镜像ID
 
